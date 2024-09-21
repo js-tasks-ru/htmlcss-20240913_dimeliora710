@@ -1,0 +1,12 @@
+.header {
+	padding-top: 25px;
+
+	background-color: var(--white);
+}
+
+.header__heading {
+	margin: 40px 0;
+
+	font-size: 5rem;
+	font-weight: 500;
+}

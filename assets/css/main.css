@@ -2,8 +2,10 @@
 
 @import '../fonts/fonts.css';
 
+@import '../../components/index.css';
+
 :root {
-    --white: #ffffff;
+    --white: #FFFFFF;
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
@@ -13,6 +15,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);
@@ -21,6 +24,10 @@
     --secondary: var(--purple);
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
 }
