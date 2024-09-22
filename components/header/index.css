@@ -1,11 +1,11 @@
 .header {
-	padding-top: 25px;
+	padding: 25px 0 75px;
 
 	background-color: var(--white);
 }
 
 .header__heading {
-	margin: 40px 0;
+	margin: 40px 0 0;
 
 	font-size: 5rem;
 	font-weight: 500;
