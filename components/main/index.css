@@ -1,0 +1,10 @@
+.main {
+	--main-border: 1px solid var(--grey-2);
+
+	min-height: 350px; /* высота временная */
+
+	border-bottom: var(--main-border);
+	border-top: var(--main-border);
+
+	background-color: var(--grey-5);
+}
