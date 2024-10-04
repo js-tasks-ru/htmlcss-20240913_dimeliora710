@@ -1,0 +1,44 @@
+.modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+
+	visibility: hidden;
+
+	background-color: var(--semi-grey);
+}
+
+.modal_open {
+	visibility: visible;
+}
+
+.modal__content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	padding: 30px 40px;
+
+	border-radius: 8px;
+
+	background-color: var(--white);
+
+	transform: translate(-50%, -50%);
+}
+
+.modal__close {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+
+	padding: 0;
+
+	color: var(--grey-4);
+	border: none;
+
+	background-color: transparent;
+
+	cursor: pointer;
+}
