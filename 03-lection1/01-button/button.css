@@ -6,6 +6,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.6rem;
 	font-weight: 500;
+	line-height: 1.875rem;
 	color: var(--white);
 
 	border: 1px solid;
@@ -55,9 +56,8 @@
 	border-color: var(--black);
 }
 
-.button_disabled {
+.button:disabled {
 	opacity: 0.5;
 
 	pointer-events: none;
-	cursor: default;
 }
