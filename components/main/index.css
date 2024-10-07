@@ -1,10 +1,19 @@
 .main {
 	--main-border: 1px solid var(--grey-2);
 
-	min-height: 350px; /* высота временная */
-
 	border-bottom: var(--main-border);
 	border-top: var(--main-border);
 
 	background-color: var(--grey-5);
 }
+
+
+.main_components {
+	border: none;
+	border-radius: 12px;
+
+	box-shadow: 0 2px 4px 0 var(--black-pale);
+
+	background-color: var(--white);
+}
+
