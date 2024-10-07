@@ -19,3 +19,18 @@
 	font-size: 1.6rem;
 	line-height: 2.4rem;
 }
+
+.footer_components {
+	grid-area: footer;
+
+	padding: 56px 0;
+}
+
+.footer_components .footer__heading {
+	margin: 0;
+
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	color: var(--grey-3);
+	text-transform: uppercase;
+}

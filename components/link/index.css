@@ -1,0 +1,23 @@
+.link {
+	text-decoration: none;
+}
+
+.link_header {
+	color: var(--grey-3);
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+
+.link_header.link_active {
+	color: var(--black);
+}
+
+.link_aside {
+	font-size: 1.4rem;
+	line-height: 2.2rem;
+	color: var(--black);
+}
+
+.link_aside.link_active {
+	color: var(--notification);
+}
