@@ -10,7 +10,9 @@
     --black-pale: #2124290D;
     --pink: #F784AD;
     --purple: #7048E8;
-    --blue: #374FC7;
+    --purple-dark: #5028C6;
+    --blue: #4263EB;
+    --blue-dark: #2342C0;
     --red: #F03D3E;
     --orange: #D84910;
     --grey-1: #F8F9FA;
@@ -25,6 +27,15 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --primary-hover: var(--blue-dark);
+    --secondary-hover: var(--purple-dark);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 *,

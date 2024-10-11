@@ -6,3 +6,12 @@
 
 	background-color: var(--grey-5);
 }
+
+.main__grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+
+	padding: 65px 0;
+}

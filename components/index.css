@@ -3,5 +3,6 @@
 @import './aside/index.css';
 @import './main/index.css';
 @import './footer/index.css';
-@import './page/index.css';
 @import './components/index.css';
+@import './card/index.css';
+@import './page/index.css';
