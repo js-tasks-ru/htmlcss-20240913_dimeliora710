@@ -2,12 +2,6 @@
 	padding: 25px 0 75px;
 }
 
-.header_components {
-	grid-area: header;
-
-	padding: 24px 0 60px;
-}
-
 .header__wrapper {
 	display: flex;
 	align-items: center;
@@ -36,6 +30,17 @@
 	gap: 24px;
 
 	margin-right: 56px;
+}
+
+.header__link {
+	color: var(--grey-3);
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	text-decoration: none;
+}
+
+.header__link_active {
+	color: var(--black);
 }
 
 .header__theme-switch {

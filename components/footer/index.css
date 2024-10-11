@@ -12,25 +12,19 @@
 	font-weight: 500;
 }
 
-.footer__description {
-	max-width: 640px;
-	margin: 0 auto;
-
-	font-size: 1.6rem;
-	line-height: 2.4rem;
-}
-
-.footer_components {
-	grid-area: footer;
-
-	padding: 56px 0;
-}
-
-.footer_components .footer__heading {
+.footer__heading_minimal {
 	margin: 0;
 
 	font-size: 1.2rem;
 	line-height: 1.8rem;
 	color: var(--grey-3);
 	text-transform: uppercase;
+}
+
+.footer__description {
+	max-width: 640px;
+	margin: 0 auto;
+
+	font-size: 1.6rem;
+	line-height: 2.4rem;
 }

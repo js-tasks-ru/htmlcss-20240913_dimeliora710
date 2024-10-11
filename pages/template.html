@@ -10,15 +10,15 @@
 
 <body>
 	<div class="page page_components">
-		<header class="header header_components">
+		<header class="header page__header">
 			<div class="container">
 				<div class="header__wrapper">
 					<a href="/" class="header__logo">%LOGO%</a>
 					
 					<nav class="header__navbar">
-						<a href="#" class="link link_header link_active">Components</a>
-						<a href="#" class="link link_header">About</a>
-						<a href="#" class="link link_header">Contact</a>
+						<a href="#" class="header__link header__link_active">Components</a>
+						<a href="#" class="header__link">About</a>
+						<a href="#" class="header__link">Contact</a>
 					</nav>
 					
 					<div class="header__theme-switch">%THEME%</div>
@@ -26,15 +26,17 @@
 			</div>
 		</header>
 
-		<div class="container container_components">
-			<aside class="aside"></aside>
-
-			<main class="main main_components"></main>
+		<div class="container page__main">
+			<div class="components">
+				<aside class="aside"></aside>
+				
+				<main class="main components__main"></main>
+			</div>
 		</div>
 
-		<footer class="footer footer_components">
+		<footer class="footer page__footer">
 			<div class="container">
-				<h2 class="footer__heading">Reusable component library</span>
+				<h2 class="footer__heading footer__heading_minimal">Reusable component library</span>
 			</div>
 		</footer>
 	</div>
