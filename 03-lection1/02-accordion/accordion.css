@@ -1,1 +1,58 @@
-/* Стилизация аккордеона */
+.accordion {
+	
+}
+
+.accordion__item {
+	margin-bottom: 8px;
+
+	border: 1px solid var(--grey-3);
+	border-radius: 8px;
+}
+
+.accordion__item:last-child {
+	margin-bottom: 0;
+}
+
+.accordion__summary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px 32px;
+
+	font-size: 1.6rem;
+	color: var(--black);
+
+	user-select: none;
+	cursor: pointer;
+}
+
+.accordion__summary::-webkit-details-marker {
+	display: none;
+}
+
+.accordion__summary::after {
+	content: "";
+
+	width: 16px;
+	height: 8px;
+
+	background-image: url('../../assets/images/chevron-up.svg');
+
+	transition: transform .2s ease-out;
+}
+
+.accordion__content {
+	padding: 0 32px 32px;
+
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: var(--grey-4);
+}
+
+.accordion__item[open] > .accordion__summary {
+	padding-bottom: 16px;
+}
+
+.accordion__item[open] > .accordion__summary::after {
+	transform: rotate(180deg);
+}

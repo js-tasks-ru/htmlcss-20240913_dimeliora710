@@ -9,8 +9,10 @@
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
+    --purple-dark: #5028C6;
     --blue: #4263EB;
-    --blue-pale: rgb(160, 177, 245, 0.2);
+    --blue-dark: #2342C0;
+    --blue-pale: #A0B1F533;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
@@ -25,6 +27,15 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --primary-hover: var(--blue-dark);
+    --secondary-hover: var(--purple-dark);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 *,
@@ -34,9 +45,13 @@
 }
 
 html {
+    height: 100%;
+
     font-size: 62.5%;
 }
 
 body {
+    height: 100%;
+
     font-family: 'Inter', sans-serif;
 }
