@@ -45,3 +45,27 @@
 
 	cursor: pointer;
 }
+
+.modal__header {
+
+}
+
+.modal__title {
+	margin: 0;
+	margin-bottom: 16px;
+
+	font-size: 2rem;
+	line-height: 2.4rem;
+	font-weight: 600;
+	color: var(--blue-light);
+}
+
+.modal__body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: var(--grey-4);
+}
+
+.modal__footer {
+
+}
