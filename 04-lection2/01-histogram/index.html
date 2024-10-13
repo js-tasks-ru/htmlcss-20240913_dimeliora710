@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <!-- Страница с гистограммой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./histogram.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./histogram.css">
+
+    <script src="./histogram.js" defer></script>
+
+    <style>
+        body {
+            padding: 30px;
+        }
+
+        .wrapper {
+            max-width: 354px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="histogram">
+            <div class="histogram__header">
+                <div class="histogram__total">
+                    <span class="histogram__title">Total orders</span>
+                    <span class="histogram__value">50254</span>
+                </div>
+
+                <a href="#" class="histogram__link">View all</a>
+            </div>
+
+            <div class="histogram__chart"></div>
+        </div>
+    </div>
+</body>
+
 </html>

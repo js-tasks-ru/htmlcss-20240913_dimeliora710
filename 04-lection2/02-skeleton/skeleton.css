@@ -1,0 +1,54 @@
+.skeleton {
+	padding: 24px 24px 32px;
+
+	border: 1px solid var(--grey-3);
+	border-radius: 8px;
+}
+
+.skeleton__header {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+
+	margin-bottom: 24px;
+}
+
+.skeleton__description {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	flex: 1;
+}
+
+.skeleton__content {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.skeleton__circle {
+	width: 64px;
+	height: 64px;
+
+	border-radius: 50%;
+
+	background-color: var(--grey-2);
+}
+
+.skeleton__line {
+	height: 20px;
+
+	background-color: var(--grey-2);
+}
+
+.skeleton__line_small {
+	width: 30%;
+}
+
+.skeleton__line_medium {
+	width: 50%;
+}
+
+.skeleton__line_large {
+	width: 100%;
+}
