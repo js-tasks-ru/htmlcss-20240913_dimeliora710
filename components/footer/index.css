@@ -12,6 +12,15 @@
 	font-weight: 500;
 }
 
+.footer__heading_minimal {
+	margin: 0;
+
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	color: var(--grey-3);
+	text-transform: uppercase;
+}
+
 .footer__description {
 	max-width: 640px;
 	margin: 0 auto;

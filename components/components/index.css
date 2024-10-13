@@ -1,0 +1,16 @@
+.components {
+	display: grid;
+	grid-template-columns: 229px 1fr;
+	gap: 56px;
+
+	height: 100%;
+}
+
+.components__main {
+	border: none;
+	border-radius: 12px;
+
+	box-shadow: 0 2px 4px 0 var(--black-pale);
+
+	background-color: var(--white);
+}
