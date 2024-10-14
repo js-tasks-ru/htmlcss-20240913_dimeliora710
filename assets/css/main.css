@@ -12,6 +12,7 @@
     --purple: #7048E8;
     --purple-dark: #5028C6;
     --blue: #4263EB;
+    --blue-light: #334D6E;
     --blue-dark: #2342C0;
     --blue-pale: #A0B1F533;
     --red: #F03D3E;
@@ -23,6 +24,8 @@
     --grey-5: #F9FAFC;
     --grey-cold: #334D6E;
     --grey-cold-2: #90A0B7;
+
+    --semi-grey: #C4C4C480;
 
     --error: var(--red);
     --success: var(--blue);
