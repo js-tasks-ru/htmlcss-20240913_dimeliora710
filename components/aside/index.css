@@ -2,6 +2,39 @@
 
 }
 
+.aside__navigation {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.aside__section {
+
+}
+
+.aside__title {
+	margin-bottom: 16px;
+
+	font-size: 2rem;
+	line-height: 2.6rem;
+	color: var(--black);
+}
+
+.aside__list {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.aside__item {
+
+}
+
 .aside__link {
 	font-size: 1.4rem;
 	line-height: 2.2rem;
@@ -11,4 +44,10 @@
 
 .aside__link_active {
 	color: var(--notification);
+}
+
+@media screen and (max-width: 768px) {
+	.aside {
+		display: none;
+	}
 }

@@ -28,3 +28,23 @@
 	font-size: 1.6rem;
 	line-height: 2.4rem;
 }
+
+@media screen and (max-width: 992px) {
+	.footer {
+		padding: 42px 0;
+	}
+
+	.footer__heading {
+		font-size: 2.6rem;
+	}
+
+	.footer__heading_minimal {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.footer {
+		display: none;
+	}
+}
