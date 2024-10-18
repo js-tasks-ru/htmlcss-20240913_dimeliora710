@@ -10,8 +10,23 @@
 .main__grid {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 	gap: 30px;
 
 	padding: 65px 0;
+}
+
+@media screen and (max-width: 992px) {
+	.main__grid {
+		gap: 15px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.main {
+		border-bottom: none;
+	}
+
+	.main__grid {
+		padding: 24px 0;
+	}
 }
