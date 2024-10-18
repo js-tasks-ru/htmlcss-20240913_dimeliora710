@@ -4,6 +4,11 @@
 	background-color: var(--white);
 }
 
+.page_home {
+	display: flex;
+	flex-direction: column;
+}
+
 .page_components {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
@@ -23,6 +28,10 @@
 
 .page__main {
 	grid-area: main;
+}
+
+.page__cards {
+	flex: 1;
 }
 
 .page__footer {
